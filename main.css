@@ -1,6 +1,6 @@
 body {
-    font-family: "Teko", sans-serif;
-}
+    font-family: "Bebas Neue", sans-serif;
+}  
 
 .navbar {
     background-color: #000;
@@ -27,7 +27,7 @@ body {
 }
 
 .section-title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Black Ops One", system-ui;
 }
 
 #sobre-a-loja, #produtos {
@@ -35,7 +35,7 @@ body {
 }
 
 .text-colored {
-    color: #000;
+    color: #ca0000;
 }
 
 .nav-produtos .nav-link.active,
