@@ -16,26 +16,26 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0" section-title>Nome do restaurante</h1>
+            <img src="./img/ROG-logo.jpg" class="navbar-brand m-0" section-title>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#sobre-o-restaurante" class="nav-link">
+                        <a href="#sobre-a-loja" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
-                            Sobre o restaurante</a>
+                            Sobre a loja</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#eventos" class="nav-link ">
+                        <a href="#tipos" class="nav-link ">
                             <i class="bi bi-calendar-check me-1"></i>
-                            Eventos</a>
+                            Tipos</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#cardapio" class="nav-link ">
+                        <a href="#produtos" class="nav-link ">
                             <i class="bi bi-card-text me-1"></i>
-                            Nosso cardapio</a>
+                            NEW products</a>
                     </li>
                     <li class="nav-item fw-bold">
                         <a href="#fale-conosco" class="nav-link ">
@@ -47,7 +47,7 @@
         </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-        <section id="sobre-o-restaurante">
+        <section id="sobre-a-loja">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </section>
-        <section id="eventos" class="pt-5 pb-5">
+        <section id="tipos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasioes</span></h2>
@@ -133,26 +133,23 @@
                 </div>
             </div>
         </section>
-        <section id="cardapio" class="pt-5 pb-5">
+        <section id="produtos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center mb-5">
-                        Nosso <span class="text-colored">cardapio</span>
+                        Nossos <span class="text-colored">produtos</span>
                     </h2>
                 </div>
                 <div class="row">
                     <aside class="col-md-2">
-                        <nav class="nav nav-pills flex-column nav-cardapio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class=" fw-bold text-start nav-link text-colored active">Bebidas nao alcoolicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class=" fw-bold text-start nav-link text-colored">Bebidas alcoolicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class=" fw-bold text-start nav-link text-colored">Entradas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class=" fw-bold text-start nav-link text-colored">Pratos principais</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#notebook" class=" fw-bold text-start nav-link text-colored active">Notebook</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#celular" class=" fw-bold text-start nav-link text-colored">Celular</button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
                         <div class="tab-content">
-                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                            <div class="tab-pane active" id="notebook">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./img/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola"/>
@@ -175,33 +172,12 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         </p>
                                     </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola"/>
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola"/>
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola"/>
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="bebidas-alcoolicas">
+                            <div class="tab-pane" id="celular">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/bebidas/cerveja.jpg" alt="Cerveja"/>
+                                        <img class="d-block w-100" src="./img/cardapio/celulares/cel1.jpg" alt="Cerveja"/>
                                         <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -214,116 +190,9 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         </p>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="entradas">
-                                <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="pratos-principais">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/pratos/pizza.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/pratos/salmao.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/pratos/pizza.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/pratos/salmao.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="entradas">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/entradas/entrada.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="sobremesas">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/sobremesas/bolo.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="./img/cardapio/sobremesas/cupcake.jpg" alt="Nome da entrada"/>
-                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="./img/cardapio/bebidas/vinho.jpg" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Vinho</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         </p>
